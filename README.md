@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+# Country Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Explore countries from around the world with ease!
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About](#about)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
 
-### `npm start`
+## About
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Country Explorer is a React web application that allows users to explore information about countries. Users can search for countries by name, filter them by group size, and view details such as capital, currency, and more.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Search for countries by name.
+- Filter countries by group size.
+- View details of each country, including its capital, currency, and more.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- React
+- TypeScript
+- CSS (for styling)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run this project on your local machine, follow the instructions below.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Before you begin, make sure you have the following installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone this repository:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+   ```bash
+   git clone https://github.com/fatihyuksel3109/country-list.git
+Change to the project directory:
 
-## Learn More
+bash
+Copy code
+cd country-list
+Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy code
+npm install
+# or
+yarn install
+Usage
+Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+bash
+Copy code
+npm start
+# or
+yarn start
+Open your web browser and visit http://localhost:3000 to access Country Explorer.
+
+Enter a country name in the search box, and optionally, specify a group size to filter the results.
+
+Folder Structure
+The project follows the following folder structure:
+
+lua
+Copy code
+src/
+|-- components/
+|   |-- CountryList.tsx
+|   |-- ...
+|-- styles/
+|   |-- styles.css
+|-- App.tsx
+|-- index.tsx
+|-- ...
+Contributing
+Contributions are welcome! To contribute to this project, please follow these steps:
+
+Fork the project.
+Create a new branch for your feature or bug fix.
+Commit your changes.
+Push to your fork.
+Create a pull request with a clear title and description.
