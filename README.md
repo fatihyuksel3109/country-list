@@ -55,8 +55,10 @@ Install dependencies:
 
 bash
 Copy code
-npm install
+
+npm install typescript@4.9.5
 # or
+
 yarn install
 Usage
 Start the development server:
