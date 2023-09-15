@@ -1,6 +1,11 @@
 # Country Explorer
 
+Welcome to the Country Explorer project!
+
 Explore countries from around the world with ease!
+
+Live Website: Country Explorer
+
 
 ## Table of Contents
 
